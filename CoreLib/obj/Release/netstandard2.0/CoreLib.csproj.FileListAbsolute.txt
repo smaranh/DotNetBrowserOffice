@@ -1,0 +1,9 @@
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\bin\Release\netstandard2.0\CoreLib.deps.json
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\bin\Release\netstandard2.0\CoreLib.dll
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\bin\Release\netstandard2.0\CoreLib.pdb
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.csproj.CoreCompileInputs.cache
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.AssemblyInfoInputs.cache
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.AssemblyInfo.cs
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.dll
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.pdb
+C:\DEV\testing\dotnetbrowser\dotnetbrowserExcelAddin\CoreLib\obj\Release\netstandard2.0\CoreLib.csprojAssemblyReference.cache
