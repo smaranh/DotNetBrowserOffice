@@ -14,7 +14,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography.X509Certificates;
 using DotNetBrowser.Net.Handlers;
-using CoreLib;
 
 namespace dotnetbrowserExcelAddin
 {
@@ -24,7 +23,7 @@ namespace dotnetbrowserExcelAddin
         public Container()
         {
             Task.Run(() =>
-                Core.engine?.CreateBrowser()
+                ThisAddIn.ExcelEngine.CreateBrowser()
             ).ContinueWith(t =>
             {
                 browser = t.Result;

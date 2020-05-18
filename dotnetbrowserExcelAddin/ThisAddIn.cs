@@ -15,16 +15,15 @@ namespace dotnetbrowserExcelAddin
 {
     public partial class ThisAddIn
     {
+        public static IEngine ExcelEngine;
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            Core.isExcelAlive = true;
-            Core.InititateEngine();
+            ExcelEngine = Core.createEngine(@"C:\DEV\testing\dotnetbrowser\exceluserdata");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
-            Core.isExcelAlive = false;
-            Core.DisposeEngine();
+            ExcelEngine?.Dispose();
         }
 
         

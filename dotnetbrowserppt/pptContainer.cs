@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CoreLib;
 
 namespace dotnetbrowserppt
 {
@@ -18,7 +17,7 @@ namespace dotnetbrowserppt
         public pptContainer()
         {
             Task.Run(() =>
-                Core.engine?.CreateBrowser()
+                ThisAddIn.PptEngine.CreateBrowser()
             ).ContinueWith(t =>
             {
                 browser = t.Result;
