@@ -1,0 +1,8 @@
+.vs/
+packages/
+dotnetbrowserExcelAddin/bin/
+dotnetbrowserExcelAddin/obj/
+dotnetbrowserppt/bin/
+dotnetbrowserppt/obj/
+CoreLib/bin/
+CoreLib/obj/

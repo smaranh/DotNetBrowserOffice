@@ -12,17 +12,16 @@ namespace dotnetbrowserppt
 {
     public partial class ThisAddIn
     {
-        
+        public static IEngine PptEngine;
+
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            Core.isPptAlive = true;
-            Core.InititateEngine();
+            PptEngine = Core.createEngine(@"C:\DEV\testing\dotnetbrowser\pptuserdata");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
-            Core.isPptAlive = false;
-            Core.DisposeEngine();
+            PptEngine?.Dispose();
         }
 
         #region VSTO generated code
