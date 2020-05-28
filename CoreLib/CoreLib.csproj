@@ -2,7 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ESRI.Office.CoreLib</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dotnetbrowser.license" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="dotnetbrowser.license">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="DotNetBrowser" Version="2.0.0" />

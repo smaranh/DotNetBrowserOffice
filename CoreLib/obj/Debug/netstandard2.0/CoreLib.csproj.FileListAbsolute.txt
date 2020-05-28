@@ -15,3 +15,5 @@ C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\obj\Debug\netstand
 C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\obj\Debug\netstandard2.0\CoreLib.AssemblyInfo.cs
 C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\obj\Debug\netstandard2.0\CoreLib.dll
 C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\obj\Debug\netstandard2.0\CoreLib.pdb
+C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\bin\Debug\netstandard2.0\dotnetbrowser.license
+C:\DEV\testing\dotnetbrowser\dotnetbrowserOfficeAddin\CoreLib\obj\Debug\netstandard2.0\CoreLib.csprojAssemblyReference.cache
