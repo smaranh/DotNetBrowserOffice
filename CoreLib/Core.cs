@@ -1,7 +1,7 @@
 ﻿using DotNetBrowser.Engine;
 using System;
 
-namespace CoreLib
+namespace ESRI.ArcGIS.Mapping.OfficeIntegration.Core
 {
     public static class Core
     {
